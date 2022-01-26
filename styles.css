@@ -88,14 +88,28 @@ header {
 footer {
 }
 
+.tint {
+    width: 1092px;
+    height: 304px;
+    position: relative;
+}
+
+.tint:before {
+content: "";
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(166, 169, 240, 0.45);
+}
+
 .footer-img {
     display: flex;
     flex: 1 1 auto;
     max-width: 400px;
     max-height: 400px;
-    padding: 5px;
-    padding-bottom: 50px;
-    margin-left: -5px;
 }
 
 .footer-img img {
@@ -117,7 +131,8 @@ footer {
 }
 
 .footer-text h3 {
+    max-width: 400px;
+    max-height: 400px;
     flex: 1 1 auto;
-    margin-top: -380px;
-    margin-left: 135px;
+    margin-left: -250px;
 }
