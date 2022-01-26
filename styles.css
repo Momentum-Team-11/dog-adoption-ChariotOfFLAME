@@ -1,4 +1,16 @@
-.header {
+body {
+    font-family: "Open Sans";
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(233, 233, 233);
+}
+
+.page {
+    justify-content: center;
+    background-color: white;
+}
+
+header {
     background-color: #004175;
     border-color: #89deef;
     border-width: 3px;
@@ -6,19 +18,61 @@
     padding: 3px;
 }
 
-.header h1 {
-    font-family: Open+Sans:400, 700;
-    color: white;
-    text-align: justify;
-    margin: 30px 30px;
+    header h1 {
+        color: white;
+        margin: 30px 30px;
+    }
+
+.adopt-description {
+    margin: 30px;
 }
 
-.attribute {
-    background-color: blue;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 1px;
-    color: white;
-    margin: 10px 0;
-    padding: 5px 10px;
+.adopt-description p {
+    font-size: 120%;
 }
+
+    .dogs-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dogs {
+        max-width: 600px;
+        max-height: 600px;
+    }
+
+    .dogs img {
+        width: 500px;
+        object-fit: scale-down
+        max-width: 100%;
+        height: auto;
+        margin: 6px;
+    }
+
+    .dogs h2{
+        margin: 5px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .attribute {
+        font-family: "Open Sans";
+        display: flex;
+        width: max-content;
+        flex-direction: row;
+        justify-content: center;
+        color: black;
+        background-color: #89deef;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        margin: 1px 0;
+        padding: 5px 5px;
+    }
+
