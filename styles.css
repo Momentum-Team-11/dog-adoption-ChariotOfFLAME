@@ -13,9 +13,12 @@ body {
 header {
     background-color: #004175;
     border-color: #89deef;
-    border-width: 3px;
+    border-top-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
     border-style: solid;
     padding: 3px;
+    margin-top: -11px;
 }
 
     header h1 {
@@ -38,12 +41,14 @@ header {
     }
 
     .dogs {
-        max-width: 600px;
-        max-height: 600px;
+        max-width: 400px;
+        max-height: 400px;
+        padding: 5px;
+        padding-bottom: 50px;
     }
 
     .dogs img {
-        width: 500px;
+        width: 400px;
         object-fit: scale-down
         max-width: 100%;
         height: auto;
@@ -51,28 +56,32 @@ header {
     }
 
     .dogs h2{
-        margin: 5px;
+        font-size: large;
+        margin-top: -10px;
+        margin-left: 5px;
+        margin-bottom: -15px;
     }
 
     ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left: -40px;
     }
 
     .attribute {
         font-family: "Open Sans";
+        font-size: small;
         display: flex;
         width: max-content;
         flex-direction: row;
-        justify-content: center;
         color: black;
         background-color: #89deef;
         border-radius: 20px;
         border-style: solid;
         border-width: 1px;
         border-color: white;
-        margin: 1px 0;
-        padding: 5px 5px;
+        margin: 1px;
+        padding: 5px 7px;
     }
 
