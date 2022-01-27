@@ -1,5 +1,7 @@
 body {
     font-family: "Open Sans";
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 10%;
     margin-right: 10%;
     background-color: rgb(233, 233, 233);
@@ -18,7 +20,6 @@ header {
     border-right: 0px;
     border-style: solid;
     padding: 3px;
-    margin-top: -11px;
 }
 
     header h1 {
