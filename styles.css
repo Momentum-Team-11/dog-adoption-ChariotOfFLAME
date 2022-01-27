@@ -50,7 +50,7 @@ header {
 
     .dogs img {
         width: 400px;
-        object-fit: scale-down
+        object-fit: scale-down;
         max-width: 100%;
         height: auto;
         margin: 6px;
