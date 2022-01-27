@@ -1,0 +1,149 @@
+body {
+    font-family: "Open Sans";
+    margin-top: 0px;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(233, 233, 233);
+}
+
+.page {
+    justify-content: center;
+    background-color: white;
+}
+
+header {
+    background-color: #004175;
+    border-color: #89deef;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding: 3px;
+}
+
+    header h1 {
+        color: white;
+        margin: 30px 30px;
+    }
+
+.adopt-description {
+    margin: 30px;
+}
+
+.adopt-description p {
+    font-size: 120%;
+}
+
+    .dogs-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .dogs {
+        max-width: 400px;
+        max-height: 400px;
+        padding: 5px;
+        padding-bottom: 50px;
+    }
+
+    .dogs img {
+        width: 400px;
+        object-fit: scale-down;
+        max-width: 100%;
+        height: auto;
+        margin: 6px;
+    }
+
+    .dogs h2{
+        font-size: large;
+        margin-top: -10px;
+        margin-left: 5px;
+        margin-bottom: -15px;
+    }
+
+    .dogs ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -40px;
+    }
+
+    .dogs li {
+        font-family: "Open Sans";
+        font-size: small;
+        display: flex;
+        width: max-content;
+        flex-direction: row;
+        color: black;
+        background-color: #89deef;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        margin: 1px;
+        padding: 5px 7px;
+    }
+
+footer {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+    .tinted-buttons {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: -2.1%;
+    }
+
+    .tinted-buttons:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7.5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85%;
+    background: rgba(166, 169, 240, 0.45);
+    }
+
+    .tinted-buttons img {
+        flex-grow: 1;
+        object-fit: cover;
+        max-width: 33.3%;
+        height: 85%;
+    }
+
+.footer-overlay {
+    position: absolute;
+}
+
+    .footer-text {
+        font-family: "Oswald";
+        font-size: 2.3vw;
+        color: white;
+        font-stretch: ultra-condensed;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .left {
+        position: relative;
+        right: 44%;
+    }
+
+    .center {
+        position: relative;
+        left: 9%;
+    }
+
+    .right {
+        position: relative;
+        left: 55%;
+    }
