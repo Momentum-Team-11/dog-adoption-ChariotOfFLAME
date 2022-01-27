@@ -15,7 +15,7 @@ body {
 header {
     background-color: #004175;
     border-color: #89deef;
-    border-top: 3px;
+    border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
@@ -63,14 +63,14 @@ header {
         margin-bottom: -15px;
     }
 
-    ul {
+    .dogs ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-left: -40px;
     }
 
-    li {
+    .dogs li {
         font-family: "Open Sans";
         font-size: small;
         display: flex;
@@ -92,7 +92,7 @@ footer {
     justify-content: center;
 }
 
-    .tinted-img {
+    .tinted-buttons {
         position: relative;
         display: flex;
         flex-flow: row nowrap;
@@ -100,7 +100,7 @@ footer {
         justify-content: space-evenly;
     }
 
-    .tinted-img:before {
+    .tinted-buttons:before {
     content: "";
     display: block;
     position: absolute;
@@ -111,14 +111,14 @@ footer {
     background: rgba(166, 169, 240, 0.45);
     }
 
-    .tinted-img img {
+    .tinted-buttons img {
         flex-grow: 1;
         object-fit: cover;
         max-width: 33.3%;
         height: 100%;
     }
 
-footer2 {
+.footer-overlay {
     position: absolute;
 }
 
